@@ -363,15 +363,11 @@ h2, p { color: #233D4D; }
 .tm-fixed-header {
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;    
     background-color: #666;
+    background-image: url(../img/ClownFish.JPG);
 }
-/* This is the Fixed background images from about, video detail and contact page */
 #tm-fixed-header-bg { height: 50vh; }
-.tm-fixed-header-1 { background-image: url(../img/ClownFish.JPG); }
-.tm-fixed-header-2 { background-image: url(../img/ClownFish.JPG); }
-.tm-fixed-header-3 { background-image: url(../img/ClownFish.JPG); }
 
 video {
   width: 100%;
@@ -571,10 +567,6 @@ video {
     }
     .tm-welcome-text { font-size: 1.3rem; text-align: center; margin-top: 5%; }
     .tm-welcome-text-3 { font-size: 1.7rem; text-align: center; margin-right: 7%; }
-    /* Smaller bcg image */
-    #tm-fixed-header-bg { height: 50vh; }
-    .tm-fixed-header-2 { background-image: url(../img/ClownFish_sm.jpg); background-position:calc(20% - 100px) calc(100% - 10px);}
-    .tm-fixed-header-3 { background-image: url(../img/ClownFish_sm.jpg);background-position:calc(20% - 100px) calc(100% - 10px); }
 }
 @media (max-width: 419px) {
     .tm-testimonial {
